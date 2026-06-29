@@ -1,3 +1,2 @@
-const calculateAge = (birthYear) => 2026 - birthYear
-
-console.log(calculateAge(2000))
+const countWords = (text) => text.trim().split(" ").length;
+console.log(countWords("Привіт як справи"));
